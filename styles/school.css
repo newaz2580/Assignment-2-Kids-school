@@ -311,21 +311,25 @@ h1 {
     color: #ffffff;
     padding: 15px 19px;
     border-radius: 47px;
-   
-}
+   }
 
 .large-card h2 {
+
     font-size: 1.2rem;
-    margin: 0 0 10px;
+    margin: 2rem 0 10px;
+    font-weight: 700;
+    padding: 0 2rem;
 }
 
-.large-card p {
+.large-card .story-description{
     font-size: 0.9rem;
-    color: #555;
-    line-height: 1.5;
+    color: #666666;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 3rem;
+    padding: 0 2rem;
+
 }
-
-
 .small-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -347,12 +351,13 @@ h1 {
  text-align: left;
 }
 
+
+
 .story-card .date {
     font-size: 0.75rem;
     color: #777;
     display: block;
     margin-bottom: 5px;
-    background-color: teal;
     position: relative;
     width: max-content;
     margin-top: -32px;
@@ -360,7 +365,15 @@ h1 {
     color: #ffffff;
     padding: 15px 19px;
     border-radius: 47px;
-    
+}
+.date-1{
+    background-color: #3CD8E8;
+}
+.date-2{
+ background-color: #95B226;
+}
+.date-3{
+    background-color: #5D58F0;
 }
 
 .story-card h3 {
@@ -371,7 +384,6 @@ h1 {
     margin-bottom:2rem ;
     margin-right:3.5rem;
     margin-left: 2.4rem;
-
 }
 
 
@@ -396,176 +408,6 @@ h1 {
 .view-all:hover {
     background-color: #555;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.stories{
-    max-width: 1160px;
-    /* background-image: url(../assets/bg.png); */
-    background:linear-gradient(to top,(rgba(254, 163, 1, 1),rgba(255, 255, 255, 1)),url(../assets/bg.png));
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}
-.stories-title{
-    text-align: center;
-    padding-top: 60px;
-    margin-bottom: 80px;
-    color: #000000;
-    font-size: 46px;
-    font-weight: 700;
-}
-.stories-img-box{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 19px;
-}
-.box2{
-    /* max-width: 601px;
-    max-height: 622px; */
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
- }
-.div{
-border: 1px solid black;
-padding: 5px;
-border-radius: 16px;
-
-}
-.div img{
-    width: 100%;
-}
-
-.date1{
-    font-size: 15px;
-    font-weight: 500;
-    background-color: #3CD8E8;
-    padding: 15px 19px;
-    border-radius: 48px;
-    color: #ffffff;
-    width: max-content;
-    position: relative;
-    margin-top: -30px;
-    margin-left: 38px;
-    border: 1px solid black;
-}
-.classroom-title{
-  padding: 33px 38px 47px 38px;
-  font-size: 24px;
-  font-weight: 700;
-  color: #000000;
-}
-.class-room-description{
-    font-size: 15.38px;
-    color: #666666;
-    font-weight: 500;
-    padding: 0px 68px 34px 38px;
-}
-.date2{
-    font-size: 15px;
-    font-weight: 500;
-    background-color: rgba(149, 178, 38, 1);
-    padding: 10px 19px;
-    border-radius: 48px;
-    color: #ffffff;
-    width: max-content;
-    position:absolute;
-    margin-top: -26px;
-    margin-left: 38px;
-    border: 1px solid black;
-}
-.date3{
-    font-size: 15px;
-    font-weight: 500;
-    background-color:rgba(93, 88, 240, 1);
-    padding: 10px 19px;
-    border-radius: 48px;
-    color: #ffffff;
-    width: max-content;
-    position: relative;
-    margin-top: -26px;
-    margin-left: 38px;
-    border: 1px solid black;
-}
-
-.date4{
-    font-size: 15px;
-    font-weight: 500;
-    background-color: rgba(149, 178, 38, 1);
-    padding: 10px 19px;
-    border-radius: 48px;
-    color: #ffffff;
-    width: max-content;
-    position: relative;
-    margin-top: -26px;
-    margin-left: 38px;
-    border: 1px solid black;
-}
-.date5{
-    font-size: 15px;
-    font-weight: 500;
-    background-color: rgba(149, 178, 38, 1);
-    padding: 10px 19px;
-    border-radius: 48px;
-    color: #ffffff;
-    width: max-content;
-    position: relative;
-    margin-top: -26px;
-    margin-left: 38px;
-    border: 1px solid black;
-}
-.card-content{
- font-weight: 700;
- margin-top: 19px;
- margin: 24px 55px 0px 38px;
-}
-.story-box{
-    max-width: 290px;
-    /* max-height: 301px; */
-    border-radius: 16px;
-    background-color: #ffffff;
-    padding: 10px;
-    position: relative;
-}
-.story-box img{
-    max-width: 100%;
-}
-/* .story-box img{
-    width: 100%;
-} */
-/* story section ends here */
-
-.view{
-    margin-top: 80px;
-    margin-bottom: 60px;
-    text-align: center;
-}
-.view-btn{
-    font-size: 20px;
-    font-weight: 700;
-    padding: 10px 61px;
-    border-radius: 12px;
-    border: none;
-    background-color: #000000;
-    color: #ffffff;
-}
-
 
 /* footer section here */
 
@@ -687,10 +529,6 @@ border-radius: 16px;
         grid-template-columns: 1fr;
     }
 
-
-
-
-
     .story-container {
         grid-template-columns: 1fr;
     }
@@ -708,11 +546,6 @@ border-radius: 16px;
     .story-card h3 {
      margin: 2rem 1rem 2rem 1rem;
     }
-
-
-
-
-
 
     .footer-section{
      grid-template-columns: 1fr;
