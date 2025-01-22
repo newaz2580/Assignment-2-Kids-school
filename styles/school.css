@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --Organ-color:#FEA301;
+    --Black-color:#111111;
+    --Sky-blue-color:#01ACFD
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(219, 211, 228);
+}
+/* share style here */
+.primary-btn{
+    padding: 0.6rem 3.9rem;
+    border-radius: 0.75rem;
+    border: none;
+    background-color: var(--Organ-color);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.25rem;
+    
+}
+/* share style here */
+/* share style here */
+.school{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 0.7rem;
+}
+.home{
+    color: var(--Organ-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.link-font{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.about{
+color: var(--Sky-blue-color);
+}
+.facilities{
+color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+
+/* nav style starts here */
+nav{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.25rem 8.75rem;
+}
+.links li{
+    list-style: none;
+    margin: 0 32px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon{
+    display: none;
+}
+.hori{
+    display: none;
+    border-color: #df7605;
+}
+/* nav style ends here */
+
+/* banner-section style starts here */
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.1rem;
+    margin-top: 1rem;
+
+}
+.organ-font{
+    color: var(--Organ-color);
+}
+.sky-blue-font{
+    color: var(--Sky-blue-color);
+}
+.banner-content{
+    margin:122px 0 ;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 1.25rem;
+    color: var(--Black-color);
+    margin: 1.5rem 0;
+}
+.enroll-btn{
+    padding: .62rem 3rem;
+    background-color: var(--Black-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+
+}
+.banner-image img{
+    width: 100%;
+}
+
+/* banner-section style ends here */
+/* main section style here */
+main{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.standard-curriculum-section{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: #000000; */
+}
+.curriculum-title{
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 46px;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    margin: 80px 0;
+    box-sizing: 0 0 28px rgba(0, 0, 0, 0.05);
+    
+}
+
+.card-1{
+    max-width: 367px;
+    text-align: center;
+    border-radius: 19px;
+    box-shadow: 0 0 5px rgb(172, 172, 114);
+    background:linear-gradient(to top, rgba(255, 255, 255, 1) 10%, rgba(222, 245, 255, 1) 90%)
+
+}
+.card-2{
+    max-width: 367px;
+    text-align: center;
+    border-radius: 19px;
+    box-shadow: 0 0 5px rgb(177, 177, 136);
+    background:linear-gradient(to top, rgba(255, 255, 255, 1)10%, rgba(255, 244, 220, 1) 90%)
+
+}
+.card-3{
+    max-width: 367px;
+    text-align: center;
+    border-radius: 19px;
+    box-shadow: 0 0 5px rgb(174, 174, 111);
+    background:linear-gradient(to top, rgba(255, 255, 255, 1)10%, rgba(238, 225, 255, 1) 90%)
+
+
+}
+.kinder{
+    margin-top: 52px;
+}
+.kinder-card-btn{
+    margin-top: 38px;
+    margin-bottom: 58px;
+    color: #64C8FF;
+    font-weight: 700;
+    border: none;
+    background-color: #ffffff;
+}
+.elementary-card-btn{
+    margin-top: 38px;
+    margin-bottom: 58px;
+    color: #F0AA00;
+    font-weight: 700;
+    border: none;
+    background-color: #ffffff;
+
+}
+.middle-card-btn{
+    margin-top: 38px;
+    margin-bottom: 58px;
+    color: #8700FF;
+    font-weight: 700;
+    border: none;
+    background-color: #ffffff;
+
+}
+.card-title{
+    margin: 32px 0;
+    font-size: 24.52px;
+    font-weight: 700;
+    color: #202020;
+}
+.card-description{
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0 40px;
+    text-align:start;
+
+}
+.arrow-item{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.less{
+    margin-left:10px ;
+    background-color: #F0AA00;
+    padding: 20px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.grater{
+    margin-left:10px ;
+    background-color: #F0AA00;
+    padding: 20px;
+    border-radius: 50%;
+    color: #ffffff;
+
+}
+/* story section start here */
+
+.stories{
+    max-width: 1160px;
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.stories-title{
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 80px;
+    color: #000000;
+    font-size: 46px;
+    font-weight: 700;
+}
+.stories-img-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+}
+.box2{
+    /* max-width: 601px;
+    max-height: 622px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+ }
+.div{
+border: 1px solid black;
+padding: 5px;
+border-radius: 16px;
+
+}
+.div img{
+    width: 100%;
+}
+
+.date1{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #3CD8E8;
+    padding: 15px 19px;
+    border-radius: 48px;
+    color: #ffffff;
+    width: max-content;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 38px;
+    border: 1px solid black;
+}
+.classroom-title{
+  padding: 33px 38px 47px 38px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+.class-room-description{
+    font-size: 15.38px;
+    color: #666666;
+    font-weight: 500;
+    padding: 0px 68px 34px 38px;
+}
+.date2{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(149, 178, 38, 1);
+    padding: 10px 19px;
+    border-radius: 48px;
+    color: #ffffff;
+    width: max-content;
+    position:absolute;
+    margin-top: -26px;
+    margin-left: 38px;
+    border: 1px solid black;
+}
+.date3{
+    font-size: 15px;
+    font-weight: 500;
+    background-color:rgba(93, 88, 240, 1);
+    padding: 10px 19px;
+    border-radius: 48px;
+    color: #ffffff;
+    width: max-content;
+    position: relative;
+    margin-top: -26px;
+    margin-left: 38px;
+    border: 1px solid black;
+}
+
+.date4{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(149, 178, 38, 1);
+    padding: 10px 19px;
+    border-radius: 48px;
+    color: #ffffff;
+    width: max-content;
+    position: relative;
+    margin-top: -26px;
+    margin-left: 38px;
+    border: 1px solid black;
+}
+.date5{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(149, 178, 38, 1);
+    padding: 10px 19px;
+    border-radius: 48px;
+    color: #ffffff;
+    width: max-content;
+    position: relative;
+    margin-top: -26px;
+    margin-left: 38px;
+    border: 1px solid black;
+}
+.card-content{
+ font-weight: 700;
+ margin-top: 19px;
+ margin: 24px 55px 0px 38px;
+}
+.story-box{
+    max-width: 290px;
+    /* max-height: 301px; */
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 10px;
+    position: relative;
+}
+.story-box img{
+    max-width: 100%;
+}
+/* .story-box img{
+    width: 100%;
+} */
+/* story section ends here */
+
+.view{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.view-btn{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 61px;
+    border-radius: 12px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/* footer section here */
+
+.footer-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    background-color: #05D4DF;
+    padding-top: 123px;
+    padding-bottom: 174px;
+}
+.kids-education{
+  display: flex;
+  align-items: center;
+}
+.school-footer{
+ display: flex;
+}
+.keep-in-touch{
+    margin-left: 160px;
+}
+.link li{
+    list-style: none;
+    margin-left: 20px;
+    margin: 20px 0;
+   
+}
+.link li a{
+    font-size: 20px;
+    color: #ffffff;
+}
+.link li.footer-about{
+    font-size: 24px;
+    color: #761919;
+    margin-bottom: 32px;
+}
+.group-img{
+    max-width: 83px;
+    max-height: 82px;
+}
+.kids-edu{
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+.footer-description{
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.keep-title{
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+.icons img{
+    border-radius: 4px;
+    width: 40.61px;
+    height: 40px;
+}
+
+/* Media query  */
+@media screen and (max-width: 576px) {
+    
+    .school{
+        display: none;
+    }
+    .navbar{
+     margin: 1.25rem 1rem;
+    }
+    .primary-btn{
+        display: none;
+    }
+    .links li{
+        display: none;
+    }
+    .navbar-icon{
+      display: block;
+    }
+    .hori{
+        display: block;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        text-align: center;
+     }
+     .banner-title{
+        font-size: 2rem;
+     }
+     .banner-description{
+        font-size: .9rem;
+     }
+    .banner-content{
+        margin:20px 0 ;
+    }
+    .banner-image{
+        margin: 0 10px;
+    }
+    .card-box{
+        flex-direction: column;
+        gap: 20px;
+        margin:20px;
+       }
+    .arrow-item{
+        display: none;
+    } 
+    .box1{
+        display: none;
+    }
+    .box2{
+        max-width: 100%;
+    }
+    .stories-img-box{
+        grid-template-columns: 1fr;
+    }
+    .footer-section{
+     grid-template-columns: 1fr;
+    }
+    .school-footer{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    
+.link li{
+    list-style: none;
+    margin-left: 0px;
+    margin: 20px 0;
+   }
+.keep-in-touch{
+    margin-left: 10px;
+} 
+/* .story-box{
+    max-width:100%;
+   padding: 0;
+ 
+}
+.stories-img-box{
+    max-width: 100%;
+} */
+
+
+}
