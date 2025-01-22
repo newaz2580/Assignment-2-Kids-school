@@ -352,6 +352,7 @@ h1 {
     background: #fff;
     border-radius: 12px;
     padding: 10px;
+    position: relative;
 }
 
 .story-card img {
@@ -367,10 +368,10 @@ h1 {
     color: #777;
     display: block;
     margin-bottom: 5px;
-    position: relative;
+    position: absolute;
     width: max-content;
-    margin-top: -32px;
-    margin-left: 38px;
+    top: 145px;
+    left: 20px;
     color: #ffffff;
     padding: 15px 19px;
     border-radius: 47px;
