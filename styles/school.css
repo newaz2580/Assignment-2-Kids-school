@@ -116,7 +116,7 @@ nav {
   color: var(--Sky-blue-color);
 }
 .banner-content {
-  margin: 122px 0;
+  margin: 7.62rem 0;
 }
 .banner-title {
   font-size: 3.5rem;
@@ -159,23 +159,23 @@ main {
 }
 .curriculum-title {
   text-align: center;
-  padding-top: 60px;
-  margin-bottom: 80px;
+  padding-top: 3.75rem;
+  margin-bottom: 5rem;
   font-weight: 700;
   font-size: 46px;
 }
 .card-box {
   display: flex;
   justify-content: space-between;
-  gap: 28px;
-  margin: 80px 0;
+  gap: 1.75rem;
+  margin: 5rem 0;
   box-sizing: 0 0 28px rgba(0, 0, 0, 0.05);
 }
 
 .card-1 {
-  max-width: 367px;
+  max-width: 22.9rem;
   text-align: center;
-  border-radius: 19px;
+  border-radius: 1.25rem;
   box-shadow: 0 0 5px rgb(172, 172, 114);
   background: linear-gradient(
     to top,
@@ -184,9 +184,9 @@ main {
   );
 }
 .card-2 {
-  max-width: 367px;
+  max-width: 22.9rem;
   text-align: center;
-  border-radius: 19px;
+  border-radius: 1.25rem;
   box-shadow: 0 0 5px rgb(177, 177, 136);
   background: linear-gradient(
     to top,
@@ -195,9 +195,9 @@ main {
   );
 }
 .card-3 {
-  max-width: 367px;
+  max-width: 22.9rem;
   text-align: center;
-  border-radius: 19px;
+  border-radius: 1.25rem;
   box-shadow: 0 0 5px rgb(174, 174, 111);
   background: linear-gradient(
     to top,
@@ -206,60 +206,60 @@ main {
   );
 }
 .kinder {
-  margin-top: 52px;
+  margin-top: 3.25rem;
 }
 .kinder-card-btn {
-  margin-top: 38px;
-  margin-bottom: 58px;
+  margin-top: 2.37rem;
+  margin-bottom: 3.62rem;
   color: #64c8ff;
   font-weight: 700;
   border: none;
   background-color: #ffffff;
 }
 .elementary-card-btn {
-  margin-top: 38px;
-  margin-bottom: 58px;
+  margin-top: 2.37rem;
+  margin-bottom: 3.62rem;
   color: #f0aa00;
   font-weight: 700;
   border: none;
   background-color: #ffffff;
 }
 .middle-card-btn {
-  margin-top: 38px;
-  margin-bottom: 58px;
+  margin-top: 2.37rem;
+  margin-bottom: 3.62rem;
   color: #8700ff;
   font-weight: 700;
   border: none;
   background-color: #ffffff;
 }
 .card-title {
-  margin: 32px 0;
-  font-size: 24.52px;
+  margin: 2rem 0;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #202020;
 }
 .card-description {
   font-weight: 500;
-  line-height: 28px;
-  padding: 0 40px;
+  line-height: 1.75rem;
+  padding: 0 2.5rem;
   text-align: justify;
 }
 .arrow-item {
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 60px;
+  margin-top: 5rem;
+  margin-bottom: 3.75rem;
 }
 .less {
   margin-left: 10px;
   background-color: #f0aa00;
-  padding: 20px;
+  padding: 1.25rem;
   border-radius: 50%;
   color: #ffffff;
 }
 .grater {
   margin-left: 10px;
   background-color: #f0aa00;
-  padding: 20px;
+  padding: 1.25rem;
   border-radius: 50%;
   color: #ffffff;
 }
@@ -287,16 +287,16 @@ h1 {
 }
 
 .story-container {
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
-  max-width: 1140px;
-  margin: 0 auto;
+
 }
 
 .large-card {
   background: #fff;
-  border-radius: 16px;
+  border-radius: 1rem;
   padding: 10px;
 }
 
@@ -317,7 +317,7 @@ h1 {
   width: max-content;
   color: #ffffff;
   padding: 15px 19px;
-  border-radius: 47px;
+  border-radius: 3rem;
 }
 
 .large-card h2 {
@@ -427,9 +427,9 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   background-color: #05d4df;
-  padding-top: 123px;
-  padding-bottom: 174px;
-  padding-left: 140px;
+  padding-top: 7.63rem;
+  padding-bottom: 10.87rem;
+  padding-left: 8.75rem;
   margin-top: 0;
 }
 .kids-education {
@@ -440,62 +440,56 @@ h1 {
   display: flex;
 }
 .keep-in-touch {
-  margin-left: 160px;
+  margin-left: 10rem;
 }
 .link li {
   list-style: none;
-  margin-left: 20px;
-  margin: 20px 0;
+  margin-left: 1.25rem;
+  margin: 1.25rem 0;
 }
 .link li a {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ffffff;
 }
 .link li.footer-about {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #761919;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 .group-img {
-  max-width: 83px;
-  max-height: 82px;
+  max-width: 5.18rem;
+  max-height: 5.12rem;
 }
 .kids-edu {
-  font-size: 42px;
+ 
+  font-size: 2.62rem;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 35px;
+ 
 }
 .footer-description {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ffffff;
   margin-left: 10px;
+  margin-top: 2.18rem;
 }
 .keep-title {
-  font-size: 26px;
+  font-size: 1.6rem;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 .icons img {
   border-radius: 4px;
-  width: 40.61px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 
 /* Media query  */
 @media screen and (max-width: 576px) {
-  .date {
-    padding: 8px !important;
-  }
 
-  .card-header span {
-    position: absolute;
-    bottom: -10px;
-    left: 12px;
-  }
 
   .school {
     display: none;
@@ -550,7 +544,15 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
   }
+  .date {
+    padding: 8px !important;
+  }
 
+  .card-header span {
+    position: absolute;
+    bottom: -10px;
+    left: 12px;
+  }
   .story-card h3 {
     margin: 2rem 1rem 2rem 1rem;
   }
