@@ -19,7 +19,7 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
-    background-color: rgb(219, 211, 228);
+    background-color: rgb(231, 229, 235);
 }
 /* share style here */
 .primary-btn{
@@ -149,7 +149,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* background-color: #000000; */
+   
 }
 .curriculum-title{
     text-align: center;
@@ -231,7 +231,8 @@ main{
     font-weight: 500;
     line-height: 28px;
     padding: 0 40px;
-    text-align:start;
+    text-align:justify;
+
 
 }
 .arrow-item{
@@ -254,11 +255,18 @@ main{
     color: #ffffff;
 
 }
-/* story section start here //////////////////////////*/
+/* story section start here*/
 
 .our-stories {
-    padding: 20px;
-    background-image: linear-gradient(to top,rgb(248, 251, 252),rgb(241, 241, 246)),url("../assets/bg.png");
+    max-width: 100%;
+    max-height: 100%;
+    background: 
+        linear-gradient(to top,rgba(246, 187, 84, 0.23),rgba(255, 255, 255, 0.093) ),
+        url('../assets/bg.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
 }
 
 h1 {
@@ -269,9 +277,6 @@ h1 {
     margin-bottom: 5rem;
 }
 
-
-
-
 .story-container {
     display: grid;
     grid-template-columns:repeat(2,1fr);
@@ -280,18 +285,16 @@ h1 {
     margin: 0 auto;
 }
 
-
 .large-card {
     background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 10px;
+   
     
 }
 
 .large-card img {
-    width: 100%;
-   
-   
+    width: 100%; 
 }
 
 .large-card .content {
@@ -334,24 +337,22 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+
 }
 
 .story-card {
     background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-   }
+    border-radius: 12px;
+    padding: 10px;
+}
 
 .story-card img {
-    width: 100%;
-  
+    width: 100%; 
 }
 
 .story-card .content {
  text-align: left;
 }
-
-
 
 .story-card .date {
     font-size: 0.75rem;
@@ -402,6 +403,7 @@ h1 {
     border-radius: 12px;
     padding: .6rem 3.8rem;
     cursor: pointer;
+    margin-bottom: 2rem;
    
 }
 
@@ -420,6 +422,7 @@ h1 {
     background-color: #05D4DF;
     padding-top: 123px;
     padding-bottom: 174px;
+    margin-top: 0;
 }
 .kids-education{
   display: flex;
