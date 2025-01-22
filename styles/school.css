@@ -21,7 +21,7 @@ body{
     margin: 0 auto;
     background-color: rgb(231, 229, 235);
 }
-/* share style here */
+
 .primary-btn{
     padding: 0.6rem 3.9rem;
     border-radius: 0.75rem;
@@ -30,10 +30,12 @@ body{
     color: #ffffff;
     font-weight: 600;
     font-size: 1.25rem;
-    
+    transition: ease-in 0.3s;
 }
-/* share style here */
-/* share style here */
+.primary-btn:hover{
+    background-color: rgb(107, 75, 16);
+}
+
 .school{
     font-size: 2rem;
     font-weight: 700;
@@ -86,6 +88,10 @@ nav{
 .navbar-icon{
     display: none;
 }
+.author{
+    color: rgb(228, 165, 16);
+}
+
 .hori{
     display: none;
     border-color: #df7605;
@@ -131,7 +137,11 @@ nav{
     color: #ffffff;
     border-radius: 12px;
     border: none;
+    transition: ease-in 0.3s;
 
+}
+.enroll-btn:hover{
+    background-color: #582b2b;
 }
 .banner-image img{
     width: 100%;
@@ -289,8 +299,6 @@ h1 {
     background: #fff;
     border-radius: 16px;
     padding: 10px;
-   
-    
 }
 
 .large-card img {
@@ -422,6 +430,7 @@ h1 {
     background-color: #05D4DF;
     padding-top: 123px;
     padding-bottom: 174px;
+    padding-left: 140px;
     margin-top: 0;
 }
 .kids-education{
@@ -522,16 +531,7 @@ h1 {
     .arrow-item{
         display: none;
     } 
-    .box1{
-        display: none;
-    }
-    .box2{
-        max-width: 100%;
-    }
-    .stories-img-box{
-        grid-template-columns: 1fr;
-    }
-
+  
     .story-container {
         grid-template-columns: 1fr;
     }
@@ -540,6 +540,7 @@ h1 {
     }
     .small-cards {
         grid-template-columns:repeat(2,1fr);
+        padding: 10px;
     }
 
    
@@ -558,14 +559,14 @@ h1 {
         margin-left: 10px;
     }
     
-.link li{
+  .link li{
     list-style: none;
     margin-left: 0px;
     margin: 20px 0;
    }
-.keep-in-touch{
+ .keep-in-touch{
     margin-left: 10px;
-} 
+ } 
 
 .footer-section{
     padding: 10px;
